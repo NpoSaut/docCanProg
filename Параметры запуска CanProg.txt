@@ -1,0 +1,8 @@
+CanProg.exe [filename] [/can1:speed] [/can2:speed] [/force]
+
+	filename - путь к .sfp-файлу с прошивкой
+	can1, can2 - скорость CAN в бодах
+	force - заставлят программу сразу же начинать процесс прошивки (пока не реализовано)
+
+Пример:
+	CanProg.exe ..\firmware.sfp /can1:100000 /can2:50000
